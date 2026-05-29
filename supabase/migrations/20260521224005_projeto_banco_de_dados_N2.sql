@@ -1,7 +1,7 @@
 
 CREATE TABLE profiles (
     id              UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    user_id         UUID NOT NULL UNIQUE REFERENCES auth_users (id) ON DELETE CASCADE,
+    user_id         UUID NOT NULL UNIQUE REFERENCES auth.users (id) ON DELETE CASCADE,
     nome_completo   VARCHAR NOT NULL,
     papel           VARCHAR NOT NULL DEFAULT 'aluno'
                     CHECK (papel IN ('aluno', 'admin_escolar', 'admin_global')),
