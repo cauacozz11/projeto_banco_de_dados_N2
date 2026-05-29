@@ -1,0 +1,42 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Conexão Bancp",
+            "database": "proejeto database",
+            "username": "cauacozz11",
+            "group": "teste",
+            "connectionTimeout": 20
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "connectionTimeout": 20,
+            "name": "Banco supabase",
+            "group": "Conexão supa",
+            "database": "postgres",
+            "username": "cauacozz11",
+            "password": "Cauaadri7006@"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Banco supabase trabalho",
+            "group": "Supabase trabalho",
+            "database": "PostgreSql",
+            "username": "cauacozz11",
+            "password": "12345678",
+            "connectionTimeout": 20
+        }
+    ]
+}
